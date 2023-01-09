@@ -7,6 +7,14 @@
 section.container {
     padding-bottom: 30px;
 }
+.hero {
+    min-height: 100vh;
+    padding-bottom: 30px;
+    background-image: url(../../img/coming-soon-bg01.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .hero > .short-row {
     display: flex;
     flex-direction: column;
