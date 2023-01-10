@@ -4,6 +4,7 @@
 /* 3rd-party */
 @import '../3rd-party/font-awesome.min.css';
 /* components */
+@import '../components/clock.css';
 /* custom style below this comment line */
 section.container {
     padding-bottom: 30px;
