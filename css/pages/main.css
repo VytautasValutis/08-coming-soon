@@ -42,13 +42,26 @@ section.container {
 footer.container {
     padding-top: 0;
 }
-.socials {
+.row.socials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
     text-align: center;
     padding: 20px;
     border-bottom: 1px solid #fff;
 }
 .socials > a {
-    padding: 10px;
+    width: 2.3em;
+    height: 2.3em;
+    line-height: 2.3em;
+    font-size: 20px;
     color: #fff;
     text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.9s;
+}
+.socials > a:hover {
+    color: #03A9F3;
+    background-color: #fff;
 }
