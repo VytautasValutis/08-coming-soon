@@ -2,6 +2,7 @@
 @import '../base/base.css';
 @import '../base/Layout.css';
 /* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
 /* components */
 /* custom style below this comment line */
 section.container {
@@ -33,9 +34,21 @@ section.container {
     text-transform: uppercase;
     letter-spacing: -3px;
 }
+/*  main */
 .main-description {
     font-size: 16px;
+/*  footer */
 }
 footer.container {
     padding-top: 0;
+}
+.socials {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+.socials > a {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
 }
