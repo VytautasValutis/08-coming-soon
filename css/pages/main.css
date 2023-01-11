@@ -6,6 +6,7 @@
 /* components */
 @import '../components/clock.css';
 @import '../components/mouse.css';
+@import '../components/progress-bar.css';
 /* custom style below this comment line */
 section.container {
     padding-bottom: 30px;
