@@ -2,6 +2,7 @@
 @import '../base/base.css';
 @import '../base/Layout.css';
 /* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
 /* components */
 /* custom style below this comment line */
 section.container {
@@ -33,9 +34,34 @@ section.container {
     text-transform: uppercase;
     letter-spacing: -3px;
 }
+/*  main */
 .main-description {
     font-size: 16px;
+/*  footer */
 }
 footer.container {
     padding-top: 0;
+}
+.row.socials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+.socials > a {
+    width: 2.3em;
+    height: 2.3em;
+    line-height: 2.3em;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.9s;
+}
+.socials > a:hover {
+    color: #03A9F3;
+    background-color: #fff;
 }
