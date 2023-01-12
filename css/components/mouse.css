@@ -24,9 +24,14 @@
 }
 @keyframes scroll {
     0% {
+        background-color: #fff;
         top: 2.5em;
+    }
+    50% {
+        background-color: #fff;
     }
     100% {
         top: 7.5em;
+        background-color: transparent;
     }
 }
