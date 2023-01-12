@@ -82,3 +82,63 @@ footer > .row {
     top: -1.1em;
     right: -0.6em;
 }
+footer > .short-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+footer > .short-row > .chunk:first-of-type {
+    color: #fff;
+    display: block;
+    padding-bottom: 20px;
+}
+.chunk > .bit-logo {
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+}
+.chunk > .bit-logo-txt {
+    line-height: 30px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    display: block;
+    float: left;
+}
+footer > .short-row > .chunk:nth-of-type(2) {
+    display: block;
+    text-align: center;
+    
+}
+.bit {
+    color: #fff;
+    padding: 0 2px;
+    display: block;
+    float: left;
+}
+.center::before {
+    content: "|";
+    padding: 0 3px;
+    display: block;
+    float: left;
+}
+.center::after {
+    content: "|";
+    padding: 0 3px;
+    display: block;
+    float: right;
+}
+@media (max-width: 650px) {
+    .bit {
+        display: inline-block;
+        float: none;
+        text-align: center;
+    }
+    footer > .short-row > .chunk:last-of-type {
+        text-align: center;
+    }
+}
+
