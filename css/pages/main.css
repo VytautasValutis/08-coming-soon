@@ -5,8 +5,11 @@
 @import '../3rd-party/font-awesome.min.css';
 /* components */
 @import '../components/clock.css';
+@import '../components/form.css';
 @import '../components/mouse.css';
+@import '../components/subscribe.css';
 @import '../components/progress-bar.css';
+@import '../components/button.css';
 /* custom style below this comment line */
 section.container {
     padding-bottom: 30px;
@@ -25,6 +28,7 @@ section.container {
     flex-direction: column;
     text-align: center;
     gap: 20px;
+    align-items: center;
 }
 .logo {
     height: 40px;
@@ -75,6 +79,6 @@ footer > .row {
 .back-to-top {
     background-color: red;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -1.1em;
+    right: -0.6em;
 }
