@@ -1,5 +1,6 @@
 .mouse {
-    font-size: 3px;
+    /* font-size: 3px; */
+    font-size: 20px;
     border: 1em solid #fff;
     width: 7em;
     height: 13em;
@@ -17,4 +18,15 @@
     transform: translateX(-50%);
     display: block;
     border-radius: 0.5em;
+    animation-name: scroll;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes scroll {
+    0% {
+        top: 2.5em;
+    }
+    100% {
+        top: 7.5em;
+    }
 }
