@@ -1,0 +1,21 @@
+.subscribe {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.subscribe > input {
+    font-size: 16px;
+    line-height: 1.2em;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+.subscribe > input::placeholder {
+    color: #fff;
+}
